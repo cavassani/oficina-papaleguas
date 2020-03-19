@@ -1,5 +1,6 @@
-# oficina-papaleguas
-Esboço de site para uma oficina mecanica
+# Site Ofinica Papa Leguas
+Esboço de site para uma oficina mecanica.
+
 itens para se fazer no site(carece de updates):
 - [X] conseguir um template para o site
 - [ ] criar design de logo e afins pro site
