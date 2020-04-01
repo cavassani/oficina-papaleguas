@@ -2,7 +2,10 @@
 html {
   overflow-x: hidden;
 }
-
+/*
+cor azul #137ED9 
+cor padrao do titulo #585b60
+*/
 body {
   background: #fff;
   font-size: 14px;
@@ -596,6 +599,11 @@ hr {
   border-color: #137ED9;
 }
 
+.carrossel-inicial img {
+  width: auto;
+  margin: 0 auto;
+}
+
 .slicknav_menu .slicknav_icon-bar {
   background: #137ED9;
 }
@@ -693,8 +701,10 @@ hr {
 }
 
 #hero-area .contents .head-title {
-  color: #585b60;
-  font-size: 34px;
+  color: #137ED9 ;
+  font-family: 'Chewy', cursive;
+  text-shadow: -1px -1px 0 rgb(230, 247, 1), 1px -1px 0 rgb(230, 247, 1), -1px 1px 0 rgb(230, 247, 1), 1px 1px 0 rgb(230, 247, 1);
+  font-size: 58px;
   line-height: 48px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -1066,7 +1076,7 @@ hr {
 }
 
 .slick-slider {
-  padding: 80px 0;
+  /*padding: 5px 0;*/
 }
 
 .slider-center img {

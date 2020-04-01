@@ -104,7 +104,18 @@
       ]
     });
     
-
+     /*  Slick Slider 2
+    ========================================================*/
+    $('.carrossel-inicial').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      adaptiveHeight:true,
+      autoplay: true,
+      centerMode: true
+    });
     /* Back Top Link active
     ========================================================*/
       var offset = 200;
